@@ -1,12 +1,21 @@
 {
   "name": "copyright-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Lux Liu <luxliu007168@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": ">=4.0.0 < 6.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^8.0.0"
+  }
 }
